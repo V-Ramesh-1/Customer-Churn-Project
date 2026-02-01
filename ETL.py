@@ -4,6 +4,7 @@ from datetime import datetime
 
 # ---------------------------
 # 1️⃣ Connect to SQL Server
+# working on this
 # ---------------------------
 conn = pyodbc.connect(
     r'DRIVER={ODBC Driver 17 for SQL Server};'
