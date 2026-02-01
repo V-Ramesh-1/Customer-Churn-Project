@@ -5,6 +5,7 @@ from datetime import datetime
 # ---------------------------
 # 1️⃣ Connect to SQL Server
 # working on this
+# aasss
 # ---------------------------
 conn = pyodbc.connect(
     r'DRIVER={ODBC Driver 17 for SQL Server};'
@@ -21,6 +22,7 @@ usage = pd.read_sql("SELECT * FROM usage", conn)
 payments = pd.read_sql("SELECT * FROM payments", conn)
 complaints = pd.read_sql("SELECT * FROM complaints", conn)
 churn = pd.read_sql("SELECT * FROM churn", conn)
+churn1 = pd.read_sql("SELECT * FROM churn", conn)
 
 # ---------------------------
 # 3️⃣ Transform data
